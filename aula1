@@ -1,0 +1,138 @@
+Análise de sistemas, 28-07-2026 (Aula 1)
+
+Estrutura sugerida de projetos
+
+1. Resumo do sistema:
+  - max 1 pág
+2. Levantamento/coleta de requisito:
+  - max 10 pág
+  - descrição de requisitos do usuário
+  - informações obtidas a partir das reuniões
+  - informações obtidas pelo usuário
+  - comportamentos do sistema
+  - materiais/documentos coletas pelo projetista (fontes de consultas)
+  - requisitos funcionais/não funcionais e restrições
+  - Equipes de 3 pessoas no máximo
+
+3. Casos de uso:
+  - Entre dois a dez
+  - Extraídos do levantamento de requisitos
+  - Documentar casos com o máximo de detalhes 
+    - baixar estoque | estoque_atual = estoque_atual - estoque_vendido;
+  - Incluir regras de negócios, interface, desempenho, requisitos funcionais e etc
+
+4. Diagrama de classes(modelo de classes):
+  - Classes de domínio, especificação ou implementação perfetamente acoplados aos casos de uso
+  - CRC ou documentos que correspondam cada atributo método
+
+5. Diagrama de objetos:
+  - Um ou três operações/funções
+  - Funções/operações interessantes
+
+6. Diagrama de sequência:
+  - Um ou três 
+  - Como um ator atinge seu objetivo na realização de cada caso de uso
+  - Parte dinâmica, como as classes trocam mensagens e realizam trabalhos internos
+  - Não aceitas do tipo CRUD
+
+7. Modelo entidade relacionamento e dicionário de dados
+  - Os documentos complementares inseparáveis
+  - Classes persistidas
+  - Modelo detalhado (conceitual, lógico e físico - 3 diagramas) e documento dados completos
+
+8. Mapa de navegação(menu do sistema)
+  - Diagrama hierárquico que indica e mapea todas as funções do sistema
+  - Fornecer noção de como as funções estão interligadas e agrupadas em menus
+  - Cada função representada por um retângulo
+
+9. Projeto de interface(protótipo)
+  - Para representar como o sistema funcionará
+  - Desenhar o sistema
+
+10. Sistemas correlatos:
+  - Um a três
+  - Funcionamento de outros sistemas semelhantes
+  - Mostrar que pesquisou e aprendeu boas ideias do correlatos
+
+11. Diagramas opcionais
+12. Bibliografia
+12+1. Anexo 1(documentos fornecidos pelo usuário)
+14. Outros anexos
+15. Documentação adicional e opcional
+  
+-Todos apresentam, tempo máximo de 30 minutos
+
+leituras
+
+"Princípios de análise e projetos de sistemas" BEZERRA, Eduardo;
+"Desenvolvendo software com UML definitivo" MEDEIROS, Ermani Sales de;
+"The Object Primer: Agile Model-Driven Development with UML 2.0" Scott W. Ambler
+"A arte de lidar com pessoas" JAMIL ALBURQUEQUE;
+"ANÁLISE DE SISTEMAS O outro lado da informática" Luis Carlos de Sá Carvalho
+"Um TOC na cuca Técnicas para quem quer ter mais criatividade na vida"
+"Introdução à arquitetura e design de software"
+
+INTRODUÇÃO À ANÁLISE DE SISTEMAS ORIENTADA A OBJETOS
+
+  Os valores que moviam a economia no passada eram prpriedades, mão-de-obra, máquina/equipamentos, capital e etc.
+Atualmente, a informação sobre seus processos, clientes e competidores é o que traz maior vantagem. A quantidade 
+de informações cresceram, produzindo a necessidade de sistemas de informações (combinação de pessoas, dados,
+processos, interfaces, redes de comnunicação e tecnologia que interagem com o objetivo de dar suporte e melhorar 
+o processo de negócios de uma organização.) que aumentem lucros e reduzam perdas.
+
+  Sistemas de informação devem prover vantagem competitiva e adicionar valor a organização aumentando lucro e 
+produtividade (- trabalho, + lucro, - custo) Cálculo de ROI - Return of investiment.
+
+SISTEMA DE SOFTWARE: Componente do sistema de infrormação e compreende os módulos funcionais que interagem 
+entre si para gerar ao usuário a automatização e otimização de divresas tarefas.
+  MAIOR = MAIS COMPLEXO || O tamanho de um sistema é diretamente proporcional a sua complexidade. Considera-se
+de modo simplificado duas variáveis: TEMPO E RECURSOS, quanto mais recursos menor o tempo. A complexidade dos
+sistemas de software deve ser gerenciada atráves de planejamento e antecipação de etapas de construção sendo a 
+principal ferramenta de gerenciamento de complexidade O MODELO (representação idealizada do sistema a se
+construir). MODELO: Muitos detalhes, característica relevantes, divisão em partes usando o príncipio da 
+abstração, comunicação entre partes envolvidas sendo construtoras do software e/ou usuários.
+MODELAGEM DE SISTEAMS DE SOFTWARE: Representação abstrata da estrutura e comportamento de ssitema antes/durante a
+a sua implementação. Traz redução de custos corrigindo erros ainda no modelo, predição de comportamentos 
+futuros.
+  DIAGRAMAS: Representação de elementos gráficos, junto das INFORMAÇÕES TEXTUAIS formam a DOCUMENTAÇÃO DO SISTEMA.
+
+PARADIGMA DE ORIENTAÇÃO A OBJETOS(Alan Kay na segunda metade de 1960)
+
+  Sendo a desenvolvimento de sistemas uma tarefa complexa, faz-se necessário uma ferramenta para gerenciar essa
+complexidade: ORIENTAÇÃO A OBJETOS. Paradigma: Modo cíclico dinâmico de instrução para solucioar um problema. O
+paradigma de orientação a objetos é uma forma de resolver problemas da construção de sistemas altamente complexos.
+Sistemas comparados a seres-vivos com células/agentes autônomos que interagem e órgãos trocando mensagens.
+- Qualquer coisa é um objeto
+- Objetos realizam tarefas atráves da requisição de serviços de outros objetos
+- Cada objeto pertence a uma determinada classe. Uma classe agrupa objetos similares
+- Classe é um respositório para comportamento associado ao objeto
+- Classes são organizadas em hierarquia
+
+  Processos agem sobre dados para que o objetivo seja atingido. Ênfase em funções. O paradigma reduz a impedência
+semântica. O paradigma começou em linuguagem computacional e só depois subiu para linuguagens de programação (SmallTalk).
+Um sistema orientado a objetos consiste em objetos em colaboração.
+  - coisas do mundo são objetos
+  - grupos de coisas semelhantes são classes ou classes de objetos
+  - agrupam-se coisas semelhantes para gerenciar grandes quantidades 
+  - classes são modelos, formas, gabaritos, templates de coisas semelhantes
+  - classe é um abstração de um tipo de coisas
+  - objeto é um instância de uma classe
+
+MENSAGNES
+  Obetos não executam serviços de modo aleatório, mas de estimulos externos. Quando um objeto recebe uma mensagem
+ele executa. Na execução de um sistema orientado a objetos, temos a troca intensiva de mensagens entre objetos que
+contribuem entre si.
+
+INSTRUMENTOS DE ABSTRAÇÃO
+  Para gerenciar problemas de média e alta complexidade: Encapsulamento, proteção de dentro do objeto.
+Polimorfismo: Objeto tratado como se fosse classe. Herança: Hierarquia de classes.
+
+ENCAPSULAMENTO: Esconde o funcionamento interno do objeto, controle forte baseado no interface do objeto;
+POLIMORFISMO: Objetos diferentes na mesma hierarquia de classes para um mesmo serviço(PLAY = DVD, RADIO,
+CELULAR...);
+HERANÇA: Classes semelhantes agrupadas em uma hierarquia de herança(similaridade, tipo...) que facilita
+o gerenciamento de comportamentos gerais e especificos organizados de forma adequada. Cada nível de 
+herança pode ser considerado um nível de abstração.
+
+
+Obs1: história do usuário -> Caso de uso -> Programação 
