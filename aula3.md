@@ -5,7 +5,7 @@ O desenvolvimento de um software complexo é feito em equipe. Vejamos alguns dos
 **Gerente de projeto**
   - Gerencia, coordena e monitora a equipe;
   - Controle de orçamento de tempo, recursos e gastos do projeto;
-  - Definição dos programas e processos de desenvolvimento(software/hardware);
+  - Definição dos programas e processos de desenvolvimento(software/hardware, frameworks, banco de dados...);
   - Suprir as necessidades do cliente(usuário), fazer o programa ser necessário;
   - Só deve haver um gerente por projeto.
 
