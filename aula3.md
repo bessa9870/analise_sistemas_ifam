@@ -2,21 +2,21 @@
 *11-08-26 | Análise de sistemas*
 
 O desenvolvimento de um software complexo é feito em equipe. Vejamos alguns dos componentes:
-###**Gerente de projeto**
+### Gerente de projeto
   - Gerencia, coordena e monitora a equipe;
   - Controle de orçamento de tempo, recursos e gastos do projeto;
   - Definição dos programas e processos de desenvolvimento(software/hardware, frameworks, banco de dados...);
   - Suprir as necessidades do cliente(usuário), fazer o programa ser necessário;
   - Só deve haver um gerente por projeto.
 
-###**Analista**
+### Analista
   - Conhecimento do domínio do negócio do cliente (fazer o dever de casa sobre o negócio do cliente);
   - Capacidade de comunica-se com os especialistas do domínio do negócio (aprender os vocabulários);
   - Traduzir os requisitos do cliente ao sistema e a equipe;
   - Domínio da programação e aprendizado rápido;
   - Ética e fácil comunicação com pessoas de todos os tipos.
 
-###**Projetista**
+### Projetista
   - Avalia e propõe a melhor alternativa para o sistema físico;
   - Propõe soluções para problemas encontrados nas análises;
   - Gera especificações para soluções computacionais detalhadas.
@@ -25,27 +25,27 @@ O desenvolvimento de um software complexo é feito em equipe. Vejamos alguns dos
     - Banco de dados;
     - Redes e segurança. 
 
-###**Arquiteto de software**
+### Arquiteto de software
   - Elabora a arquitetura de todo o sistema(interfaces);
   - Toma decisões globais sobre detalhes técnicos(performance, confiabilidade e codificação);
   - Conhecimento sobre o domínio do negócio do cliente;
   - Gerente técnico do sistema;
 
-###**Programador**
+### Programador
   - Escreve os códigos, alta habilidade em programação;
   - Interpretação e transcrição de diagramas e documentação para linhas de código;
   - Rapidez na construção do código;
   - Controle de versionamento e conhecimento das tecnologias modernas;
   - Entender o que, porque e como está implementando.
 
-###**Clientes**
+### Clientes
   - A pessoa com a necessidade do sistema. Existem dois tipos de cliente:
       - Cliente usuário: Entende do negócio, fará uso do sistema efetivamente, entende da necessidade;
       - Cliente contratante: Chamado executivo patrocinador, é quem contrata e paga pelo sistema.
 
 *Independente do processo de desenvolvimento, o envolvimento e comprometimento do usuário final na construção do sistema é indispensável.*
 
-###**Avaliadores da qualidade (QA)**
+### Avaliadores da qualidade (QA
   - Realizam testes de conformidade, validação, desempenho, confiabilidade...
   - Escrevem manuais a partir da documentação;
   - Garante a qualidade.
@@ -67,7 +67,7 @@ As atividades para o desenvolvimento de sistemas são idênticas, existem duas g
 Desenvolvimento em ciclos, em cada ciclo são levantados requisitos e executadas atividades de análise, projeto, implementação e testes. Para cada ciclo se estabelece uma meta que deve ser atingida. Os ciclos se repetem até que todos os requisitos sejam implementados.
   - Deve haver mecanismo de agrupamento e divisão de requisitos por prioridade;
   - Iterativo porque o sistema é desenvolvido em passos similares, é incremental em cada volta são adicionadas novas funcionalidades ao sistema e correção de erros.
-  - 
+
 Incentiva a participação(interação via teste de sistema), porém é mais complexo de se gerenciar, suas atividades são executadas repetidamente e em paralelo, equipes trabalham em vários requisitos simultaneamente.
 
 Possui melhor gerenciamento de riscos de desenvolvimento, para evitar:
@@ -93,14 +93,13 @@ O processo de desenvolvimento iterativo incremental é dividido em duas fases: T
 Ferramenta independente que produz artefatos que serão lidos pelo programador que os adicionará no sistema. A cada iteração, novos detalhes devem ser adicionados. A construção de um artefato fornece os detalhes que devem ser adicionados a outros artefatos em um esquema de iteração contínua para capturar todos os requisitos do sistema.
 
 ## Prototipagem
+*Pode utilizar programas de representações gráficas ou linguagens de programação*
   - **Técnica usada quando o entendimento das requisições é difícil**
   - Técnica que completa a análise de requisitos;
   - Usar protótipos para telas(entradas/saídas), subsistemas ou o sistema como um todo;
   - O usuário é quem valida o protótipo. Usado quando o entendimento de requisitos é difícil;
   - Tornam a validação menos arriscada(o cliente vê o que vai receber);
   - Não devem substituir diagramas e nem virar o sistema.
-
-*Pode utilizar programas de representações gráficas ou linguagens de programação*
 
 ## Ferramentas de suporte ao processo de desenvolvimento
 
