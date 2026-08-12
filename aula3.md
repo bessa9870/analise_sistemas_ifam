@@ -18,7 +18,12 @@ O desenvolvimento de um software complexo é feito em equipe. Vejamos alguns dos
 
 **Projetista**
   - Avalia e propõe a melhor alternativa para o sistema físico;
-  - Propõe soluções para problemas nas análises e soluções computacionais.
+  - Propõe soluções para problemas encontrados nas análises;
+  - Gera especificações para soluções computacionais detalhadas.
+  - Especialidades:
+    - Interface;
+    - Banco de dados;
+    - Redes e segurança. 
 
 **Arquiteto de software**
   - Elabora a arquitetura de todo o sistema(interfaces);
