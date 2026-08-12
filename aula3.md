@@ -78,7 +78,7 @@ Possui melhor gerenciamento de riscos de desenvolvimento, para evitar:
 
 Os requisitos mais nocivos devem ser atendidos primeiro. As inconsistências devem ser identificadas em cada ciclo e extinguidas no ciclo seguinte, mas pode haver (no pior caso) um único ciclo apenas para extinguir inconsistências(não deixar inconsistências se acumulares).
 
-O processo de desenvolvimento iterativo incremental é dividido em duas fases: Tempo(fase) e Atividades.
+O processo de desenvolvimento iterativo incremental é dividido em duas dimensões: Tempo(fase) e Atividades.
   - Tempo: Atividades que podem ser cumpridas por uma ou mais iterações que resultam em incrementos;
   - Atividades: Ações como levantamento de requisitos, projeto, implementações, testes e implantação.
 
