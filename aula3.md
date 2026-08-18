@@ -71,7 +71,7 @@ Desenvolvimento em ciclos, em cada ciclo são levantados requisitos e executadas
 Incentiva a participação(interação via teste de sistema), porém é mais complexo de se gerenciar, suas atividades são executadas repetidamente e em paralelo, equipes trabalham em vários requisitos simultaneamente.
 
 Possui melhor gerenciamento de riscos de desenvolvimento, para evitar:
-  - São satisfazer requisições;
+  - Não satisfazer requisições;
   - Falta de verba/orçamento;
   - Software não adaptável;
   - Fatores externos.
