@@ -75,6 +75,7 @@ Notação textual - descrição dos casos de uso (Não há notação especifica 
 #### Casos de uso textuais:
 Mostrar a sequência típica de eventos (cenários de sucessos principais) e as sequências alternativas que podem ocorrer durante o caso de uso. Mostrar interessados e interesses do caso de uso.
 ex:
+  
   Digita login correto -> Digita senha correta -> Entra no servidor;
   
   Digita login errado -> Digita senha correta -> Erro de login. Login inválido
