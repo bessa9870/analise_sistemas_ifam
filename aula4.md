@@ -68,7 +68,8 @@ Papéis desempenhados por qualquer usuário de um caso de uso. O ator é quem so
 Serviços, tarefas ou funções que são utilizados pelos usuários do sistema. Ex: CadastrarCliente, VerificarCadastroCliente...
 
 ### Documentação dos casos de uso:
-Notação diagramática - diagrama de caso de uso da UML. Notação textual - descrição dos casos de uso.
+Notação diagramática - diagrama de caso de uso da UML;
+Notação textual - descrição dos casos de uso.
 
 #### Casos de uso textuais:
 Mostrar a sequência típica de eventos (cenários de sucessos principais) e as sequências alternativas que podem ocorrer durante o caso de uso. Mostrar interessados e interesses do caso de uso.
