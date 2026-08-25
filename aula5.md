@@ -45,11 +45,11 @@ Entre os casos:
   - Extensão;
   - Generalização. 
 
-### Associação <include> entre casos de uso:
+### Associação `include` entre casos de uso:
   Quando um caso de uso possui um comportamento parcial comum a vários casos de uso.
   ex: Caso **Movimentar conta** -> caso **Depositar** e caso **Sacar**
 
-### Associação <extend> entre casos de uso
+### Associação `extend` entre casos de uso
   É usado para descrever cenários opcionais de um caso de uso.
   ex: Realizar saque/Realizar depósito -> pode -> VIzualisar a conta
 
