@@ -25,11 +25,11 @@ livros a um leitor apto a emprestar. O empréstimo é válido por um tempo deter
   1. O usuário deve estar logado no sistema;
   2. O usuário deverá ter a permissão a essa funcionalidade do sistema. |
 | **Fluxo de eventos:**
-  1. O usuário informa os dados necessários de acordo com o filtro estipulado;
-  2. O sistema realiza busca por informações de acordo com os dados formecidos;
-  3. Se o sistema encontrar a informação:
-       3.1. Para cada dado o sistema informa a informação;
-       3.2. O sistema informa que não conseguiu encontrar nada. |
+|  1. O usuário informa os dados necessários de acordo com o filtro estipulado; |
+|  2. O sistema realiza busca por informações de acordo com os dados fornecidos; |
+|   3. Se o sistema encontrar a informação: |
+|       3.1. Para cada dado o sistema informa a informação; |
+|       3.2. O sistema informa que não conseguiu encontrar nada. |
 | **Pós-condições:** Nenhuma |
 
 ### Associação entre o ator e o caso de uso:
@@ -42,3 +42,14 @@ Forma de associação entre casos onde existem dois ou mais casos de uso com car
       
 ### Especialização/Generalização entre atores:
 *Três bonecos ligados por setas: "Pessoa física" -> "Pessoa" <- "Pessoa jurídica".*
+
+### Relacionamentos entre casos de uso:
+Existem casos em que a execução de um caso de uso implique a execução de outro um caso de uso pode ter uma parte que se repete em outro... Para evitar redundâncias, podemos isolar essas partes em casos de uso distintos e relacioná-los aos outros.
+
+**Associação <<include>>**
+  Quando um caso de uso possui um comportamento parcial comum a vários casos de uso.
+  ex: Caso **Movimentar conta** -> **Depositar/Sacar**
+
+**Associação <<extend>>
+  É usado para descrever cenários opcionais de um caso de uso.
+  ex: Realizar saque/Realizar depósito -> pode -> VIzualisar a conta
