@@ -21,14 +21,15 @@ livros a um leitor apto a emprestar. O empréstimo é válido por um tempo deter
 |        :--        |
 | **ID:** UC9.3 |
 | **Atores:** Depet. Gerec, professor e técnico administrativo |
-| **Pré-condições:** 
-  1. O usuário deve estar logado no sistema;
-  2. O usuário deverá ter a permissão a essa funcionalidade do sistema. |
-| **Fluxo de eventos:** 1. O usuário informa os dados necessários de acordo com o filtro estipulado; 
-  2. O sistema realiza busca por informações de acordo com os dados fornecidos; 
-   3. Se o sistema encontrar a informação: 
-       3.1. Para cada dado o sistema informa a informação; 
-       3.2. O sistema informa que não conseguiu encontrar nada. |
+| **Pré-condições:** |
+|  1. O usuário deve estar logado no sistema; |
+|  2. O usuário deverá ter a permissão a essa funcionalidade do sistema. |
+| **Fluxo de eventos:** |
+|  1. O usuário informa os dados necessários de acordo com o filtro estipulado; |
+|  2. O sistema realiza busca por informações de acordo com os dados fornecidos; |
+|  3. Se o sistema encontrar a informação: |
+|       3.1. Para cada dado o sistema informa a informação; |
+|       3.2. O sistema informa que não conseguiu encontrar nada. |
 | **Pós-condições:** Nenhuma |
 
 ### Associação entre o ator e o caso de uso:
