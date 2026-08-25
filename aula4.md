@@ -70,7 +70,7 @@ Serviços, tarefas ou funções que são utilizados pelos usuários do sistema. 
 ### Documentação dos casos de uso:
 Notação diagramática - diagrama de caso de uso da UML;
 
-Notação textual - descrição dos casos de uso.
+Notação textual - descrição dos casos de uso (Não há notação especifica para a textual, varia de criador a criador).
 
 #### Casos de uso textuais:
 Mostrar a sequência típica de eventos (cenários de sucessos principais) e as sequências alternativas que podem ocorrer durante o caso de uso. Mostrar interessados e interesses do caso de uso.
