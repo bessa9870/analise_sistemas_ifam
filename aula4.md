@@ -65,7 +65,7 @@ Papéis desempenhados por qualquer usuário de um caso de uso. O ator é quem so
   - Com quais outros sistemas o sistema em foco irá interagir?
 
 ### Casos de uso:
-Serviços, tarefas ou funções que são utilizados pelos usuários do sistema. Ex: CadastrarCliente, VerificarCadastroCliente...
+Serviços, tarefas ou funções que são utilizados pelos usuários (atores) do sistema. Ex: CadastrarCliente, VerificarCadastroCliente...
 
 ### Documentação dos casos de uso:
 Notação diagramática - diagrama de caso de uso da UML;
