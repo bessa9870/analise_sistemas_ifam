@@ -163,6 +163,7 @@ Um vínculo mais forte entre objetos-todo e os objetos-parte. Nela. o objeto-par
 
 ### Generalização
 Seu objeto é identificar a classe-mãe (geral) e classes filhas (especializadas). Identifica similaridades de estrutura/comportamentos entre várias classes.
+
 ex:
       ContaCorrente
 
