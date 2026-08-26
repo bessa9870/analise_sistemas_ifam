@@ -38,6 +38,7 @@ Compreender as necessidades do usuário e o que o usuário deseja que o sistema 
 ## DIAGRAMAS
 
 ### Diagramas de casos de uso:
+É a representação visual das funcionalidades do sistema.
   - **Onde se descreve o que o usuário quer e como deve ser feito;**
   - Representa os cenários identificados e coletados dos usuários;
   - Possibilita a compreensão do comportamento do sistema por qualquer pessoa (interação com o usuário, comportamento externo e interno);
