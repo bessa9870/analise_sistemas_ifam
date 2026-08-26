@@ -157,3 +157,18 @@ Demonstra que as informações de um objeto (objeto-todo) precisam ser complemen
 
 ex:
 Agencia <>----ContaBancaria
+
+### Associação de composição
+Um vínculo mais forte entre objetos-todo e os objetos-parte. Nela. o objeto-parte é exclusivo do objeto-todo, um objeto-parte não pode se associar com mais de um objeto-todo.
+
+### Generalização
+Seu objeto é identificar a classe-mãe (geral) e classes filhas (especializadas). Identifica similaridades de estrutura/comportamentos entre várias classes.
+ex:
+      ContaCorrente
+
+ContaCorrente    ContaPoupanca
+
+### Dependência
+Atípica nos diagramas de classe, ela identifica certos graus de independência de uma classe classe em relação a outra. A mudança em uma classe implica em outra.
+ex:
+ItensCarrinha    CarrinhoDeCompras
