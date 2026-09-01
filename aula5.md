@@ -73,21 +73,36 @@ O diagrama é marcado pela **persistência de objetos das classes** a preservaç
 
 ### Elementos do diagrama de classes
   - Classes;
+    
   - Relacionamentos.
-        - Associação - relação de utilização.
-            - Associativa unária;
-            - Associação binária;
-            - Associação ternária;
-            - Agregação;
-            - Composição.
+    
+    - Associação - relação de utilização.
+    
+         - Associativa unária;
+
+         - Associação binária;
+            
+         - Associação ternária;
+        
+         - Agregação;
+         
+         - Composição.
+        
         - Generalização - relação de herança;
+        
         - Dependência;
+        
         - Realização;
+        
         - Classe associativa;
+        
         - Restrição.
-    - Atributos.
+
+     - Atributos.
+
     - Operações/métodos
-          - Descrevem o comportamento da classe.
+    
+      - Descrevem o comportamento da classe.
 
 | **Nome da entidade** |
 | NotaFiscal |
