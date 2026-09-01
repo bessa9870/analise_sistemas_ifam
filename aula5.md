@@ -65,7 +65,7 @@ Demostra a ação que o ator utiliza do sistema representando essa ação no cas
 *Três bonecos ligados por setas: "Pessoa física" -> "Pessoa" <- "Pessoa jurídica".*
 
 ### Relacionamentos entre casos de uso
-Existem casos em que a execução de um caso de uso implique a execução de outro um caso de uso pode ter uma parte que se repete em outro... Para evitar redundâncias, podemos isolar essas partes em casos de uso distintos e relacioná-los aos outros.
+Existem alguns casos em que a execução de um caso de uso implique a execução de outro um caso de uso pode ter uma parte que se repete em outro... Para evitar redundâncias, podemos isolar essas partes em casos de uso distintos e relacioná-los aos outros.
 
 ---
 ## DIAGRAMA DE CLASSES:
