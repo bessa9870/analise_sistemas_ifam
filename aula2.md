@@ -1,12 +1,12 @@
-Aula 2 | Análise de sistemas | 04-08-26 
+# Aula 2 | Análise de sistemas | 04-08-26 
 
-Evolução histórica
+## Evolução histórica
 
   1950 - 1960: Fluxograma e diagramas
   1970: Programação estruturada 
   1990: Análise orientada à objetos
 
-A Linguagem de modelagem unificada (UML)
+## A Linguagem de modelagem unificada (UML)
 
   James Ramboaugh(OMT) Grady Booch e Ivar Jacobson(DOSE) propuseram a UML apovada em 1997 pela OMG. UML é uma linguagem visual que representa os conceitos 
 da programação orientada à objetos em várias pespectivas de sistema onde cada elemento possui sintaxe. Os autores da UML sugerem 5 visões:
@@ -16,7 +16,7 @@ da programação orientada à objetos em várias pespectivas de sistema onde cad
   Visão de implantação: Fluxo de execução do sistema;
   Visão de processo: Sincronização, concorência e desempenho do sistema;
 
-Processo de desenvolvimento de software(PDS)
+## Processo de desenvolvimento de software(PDS)
 
   É uma atividade complexa que corresponde a sobreposição das complexidades relativas ao desenvolvimento dos seus diversos componentes: Software, hardware,
 procedimento, comunicação e pessoas. Esse processo deve minimizar problemas e garantir a qualidade, ele deve incluir todas as atividades necessárias para:
@@ -26,7 +26,7 @@ para verificar o andamento do projeto(padronizar o processo de desenvolvimento d
   Levantamento de requisitos: Desenvolvedores e clientes tentam criar a mesma visão da solução a ser construída (ex: um dev e um vendedor de óculos);
   Requisito: Capacidade/exigência/necessiade a ser alcançada para satisfazer documentos formalmente impostos(Maciasszek 2000);
 
-Atividades típicas de um processo de desenvolvimento de software
+## Atividades típicas de um processo de desenvolvimento de software
 
   Requisitos estão circunscritos ao domínio do negócio(parete relevante da realidade que é relevante para a constução do sistema). Fase de estudo exploratório
 do negócio do cliente, fontes:
@@ -38,7 +38,7 @@ do negócio do cliente, fontes:
   Reutilização de análises anteriores;
   Comparação com outros sistemas do mesmo domínio.
 
-DOCUMENTO DE REQUISITOS
+## DOCUMENTO DE REQUISITOS
 
   O produto dessa atividade é o DOCUMENTO DE REQUISITOS escrito emn notação informal contendo: 
   Requisitos funcionais: parte dinâmica, funcionalidades do sistema e requisitos não-funcionais;
