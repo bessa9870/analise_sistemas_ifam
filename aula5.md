@@ -66,6 +66,7 @@ Demostra a ação que o ator utiliza do sistema representando essa ação no cas
 
 ### Relacionamentos entre casos de uso
 Existem casos em que a execução de um caso de uso implique a execução de outro um caso de uso pode ter uma parte que se repete em outro... Para evitar redundâncias, podemos isolar essas partes em casos de uso distintos e relacioná-los aos outros.
+
 ---
 ## DIAGRAMA DE CLASSES:
 É o diagrama mais importante na UML, ele traz representações das abstrações das classes e relacionamentos mais importantes para o sistema. Definirá a arquitetura estático do sistema e servirá como base para a criação de novos diagramas futuros.
