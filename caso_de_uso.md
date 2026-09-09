@@ -10,7 +10,7 @@
   4. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
 
 ## Caso de Uso 02 - Realizar Empréstimo de Livro:
-  - Ator: Associado, Bibliotecário (ou Sistema).
+  - Ator: Associado, Bibliotecário / Sistema.
   - Pré-condições: O associado deve estar cadastrado e o sistema deve ter exemplares disponíveis do livro desejado.
   - Pós-condições: O empréstimo é registrado no histórico do associado e os exemplares são marcados como indisponíveis no acervo.
 
