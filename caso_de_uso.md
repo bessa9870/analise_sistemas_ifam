@@ -1,3 +1,13 @@
+## Caso de uso: Cadastrar livro
+  - Ator: Bibliotecário / Sistema.
+  - Pré-condições: O ator  deve estar cadastrado e validado no sistema. Estar com o livro e informações preparadas para ser registrado no banco.
+  - Pós-condições: O livro deve estar preparado para uso após o processo de registro.
+
+**Fluxo principal:**
+  1. O bibliotecário registra as informações do livro, título, autor, gênero, ISBN e um identificador único físico (código de barras).
+  2. O ator informa ao sistema o número de livros a serem postos nas prateleiras.
+  3. O ator informa ao sistema se há exemplares para guardar estoque.
+
 ## Caso de Uso 01: Realizar Empréstimo de Livro:
   - Ator: Associado, Bibliotecário (ou Sistema).
   - Pré-condições: O associado deve estar cadastrado e o sistema deve ter exemplares disponíveis do livro desejado.
