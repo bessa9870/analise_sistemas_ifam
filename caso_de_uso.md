@@ -4,10 +4,11 @@
   - Pós-condições: O livro e exemplares devem estar preparados para movimentação imediatamente após o processo de registro.
 
 **Fluxo principal:**
-  1. O bibliotecário registra as informações do livro, título, autor, gênero, ISBN e o identificador único físico: código de barras.
-  2. Seguidamente, o ator informa ao sistema o código de barras de cada exemplar (se houver).
-  3. O ator confirma o registro das informações do livro e seus exemplares no sistema.
-  4. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
+  1. O ator registra as informações do livro, título, autor/autores, gênero e ISBN.
+  2. O ator registra as palavras-chaves que descrevem aquele livro. 
+  3. Seguidamente, o ator informa ao sistema o número de exemplares (se houver).
+  4. O ator confirma o registro das informações do livro no sistema.
+  5. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
 
 ## Caso de Uso 02 - Realizar Empréstimo de Livro:
   - Ator: Associado, Bibliotecário / Sistema.
