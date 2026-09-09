@@ -1,16 +1,15 @@
-## Caso de uso 01: Cadastrar livro
+## Caso de uso 01 - Cadastrar livro:
   - Ator: Bibliotecário / Sistema.
-  - Pré-condições: O ator  deve estar cadastrado e validado no sistema. Estar com o livro e informações preparadas para ser registrado no banco.
-  - Pós-condições: O livro deve estar preparado para movimentação imediatamente após o processo de registro.
+  - Pré-condições: O ator deve estar cadastrado e validado no sistema. O ator deve estar com o livro e exemplares junto das informações preparadas para ser registrado no banco.
+  - Pós-condições: O livro e exemplares devem estar preparados para movimentação imediatamente após o processo de registro.
 
 **Fluxo principal:**
-  1. O bibliotecário registra as informações do livro, título, autor, gênero, ISBN e um identificador único físico (código de barras).
-  2. O ator informa ao sistema o número de livros a serem postos nas prateleiras.
-  3. O ator informa ao sistema o número de exemplares (se houver) para guardar em estoque.
-  4. O ator confirma o registro das informações no sistema.
-  5. O ator aloca os livros nas prateleiras do gênero do livro.
+  1. O bibliotecário registra as informações do livro, título, autor, gênero, ISBN e o identificador único físico: código de barras.
+  2. Seguidamente, o ator informa ao sistema o código de barras de cada exemplar (se houver).
+  3. O ator confirma o registro das informações do livro e seus exemplares no sistema.
+  4. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
 
-## Caso de Uso 02: Realizar Empréstimo de Livro:
+## Caso de Uso 02 - Realizar Empréstimo de Livro:
   - Ator: Associado, Bibliotecário (ou Sistema).
   - Pré-condições: O associado deve estar cadastrado e o sistema deve ter exemplares disponíveis do livro desejado.
   - Pós-condições: O empréstimo é registrado no histórico do associado e os exemplares são marcados como indisponíveis no acervo.
@@ -26,7 +25,7 @@
 **Fluxo de Exceção (Limite Excedido):**
   -  No passo 3, se o associado já tiver 3 livros emprestados, o sistema exibe uma mensagem de erro informando que o limite máximo foi atingido e cancela a operação.
   
-## Caso de Uso 03: Realizar Devolução de Livro
+## Caso de Uso 03 - Realizar Devolução de Livro
   - Ator: Bibliotecário / Sistema.
   - Pré-condições: O exemplar entregue deve constar como "emprestado" no histórico do associado.
   - Pós-condições: O exemplar retorna ao acervo, a data de devolução é registrada e um recibo é gerado.
@@ -46,7 +45,7 @@
   4. O bibliotecário confirma a visualização.
   5. O sistema gera e imprime o recibo de entrega contendo o detalhamento da multa.
 
-## Caso de Uso 04: Registrar Extravio e Reposição de Livro
+## Caso de Uso 04 - Registrar Extravio e Reposição de Livro
   -  Ator: Associado, Bibliotecário.
   -  Pré-condições: O exemplar deve estar atualmente emprestado ao associado que relata o extravio.
   -  Pós-condições: A pendência do exemplar é resolvida e um recibo específico é anexado ao histórico do associado.
@@ -61,8 +60,8 @@
   7. O sistema gera um documento de recibo específico de extravio/reposição.
   8. O sistema salva este recibo no histórico permanente do associado.
 
-## Caso de Uso 05: Gerar Relatório de Movimentação 
-  - Ator: Bibliotecário / Administrador
+## Caso de Uso 05 - Gerar Relatório de Movimentação 
+  - Ator: Bibliotecário / Sistema
   - Pré-condições: O sistema deve conter dados registrados de associados e histórico de empréstimos.
   - Pós-condições: Um relatório consolidado é exibido ou impresso.
   
