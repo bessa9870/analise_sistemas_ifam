@@ -5,6 +5,7 @@
 
 **Fluxo principal:**
   1. O ator registra as informações do livro, título, autor/autores, gênero e ISBN.
+  2. Com o ISBN inserido, o sistema cria um id único, unindo uma cópia do ISBN com o número do exemplar (ex: 12345678910111213-1).
   3. O ator registra as palavras-chaves que descrevem aquele livro. 
   4. Seguidamente, o ator informa ao sistema o número de exemplares (se houver).
   5. O ator confirma o registro das informações do livro no sistema.
