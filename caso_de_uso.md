@@ -58,5 +58,5 @@
   1. O ator solicita a emissão do relatório de fechamento de período.
   2. O ator insere o período desejado para coletar os dados.
   3. O sistema varre o banco de dados e lista de todos os livros emprestados no período solicitado.
-  4. O sistema contabiliza o número total de associados cadastrados.
+  4. O sistema contabiliza o número total de associados cadastrados no período solicitado.
   5. O sistema formata os dados e gera o documento final do relatório.
