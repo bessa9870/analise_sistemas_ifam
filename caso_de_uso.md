@@ -5,10 +5,10 @@
 
 **Fluxo principal:**
   1. O ator registra as informações do livro, título, autor/autores, gênero e ISBN.
-  2. O ator registra as palavras-chaves que descrevem aquele livro. 
-  3. Seguidamente, o ator informa ao sistema o número de exemplares (se houver).
-  4. O ator confirma o registro das informações do livro no sistema.
-  5. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
+  3. O ator registra as palavras-chaves que descrevem aquele livro. 
+  4. Seguidamente, o ator informa ao sistema o número de exemplares (se houver).
+  5. O ator confirma o registro das informações do livro no sistema.
+  6. O ator aloca os exemplares nas prateleiras do gênero registrado no sistema.
 
 ## Caso de Uso 02 - Realizar Empréstimo de Livro:
   - Ator: Associado, Bibliotecário / Sistema.
